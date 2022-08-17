@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.outerDiv{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(175, 235, 240);
+    display: grid;
+    place-items: center;
+}
+
+.innerDiv{
+    width: 100vh;
+    height: 70vh;
+    display: grid;
+    place-items: center;
+}
+
+.main-heading{
+ padding: 30px;
+ color: rgb(1, 35, 44);
+ text-shadow: 0 1px 8px rgba(255, 255, 255, 0.5);
+ font-size: 80px;
+}
